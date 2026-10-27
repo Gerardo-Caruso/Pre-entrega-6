@@ -67,7 +67,6 @@ console.log("El producto encontrado es" , productoEncontrado);
 const productosConDescuento = productos.map ((producto) => (
   {nombre: producto.nombre,
    precio: Math.round(producto.precio * 0.8)
-  }
-))
+  }))
 
 console.log("Los productos con 20% de descuento son" , productosConDescuento);
